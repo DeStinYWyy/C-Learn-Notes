@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"a9c048f345c036d9","type":"text","text":"计算机诞生之初，是为了解决人们进行复杂计算的机器","x":-140,"y":-700,"width":250,"height":100},
+		{"id":"237173124d6402e6","type":"file","file":"C语言学习/零星知识点/冯诺依曼结构.md","x":589,"y":-278,"width":400,"height":400},
+		{"id":"73c18fcefe643f71","type":"link","url":"https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA/140338","x":301,"y":-850,"width":977,"height":400},
+		{"id":"8e552cf716fff9a9","type":"text","text":"计算机发展至今，仍在冯诺依曼体系下","x":989,"y":-108,"width":250,"height":60,"color":"4"},
+		{"id":"294b94c1c70ad2e2","x":597,"y":284,"width":392,"height":356,"type":"text","text":"发展至今，计算机内部的基本原件已经从最开始的晶体管发展到了"}
+	],
+	"edges":[
+		{"id":"fbd653c7eae17dc0","fromNode":"a9c048f345c036d9","fromSide":"right","toNode":"73c18fcefe643f71","toSide":"left"},
+		{"id":"fa1c7aab6db9b684","fromNode":"73c18fcefe643f71","fromSide":"bottom","toNode":"237173124d6402e6","toSide":"top","label":"计算机的架构"}
+	]
+}

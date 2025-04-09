@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"07e54035f95b9086","type":"group","x":20,"y":-120,"width":645,"height":620,"label":"十进制转二进制"},
+		{"id":"df1c6392733fd870","type":"group","x":20,"y":-600,"width":645,"height":428,"label":"二进制转十进制"},
+		{"id":"427135aeee222705","type":"text","text":"0","x":560,"y":-547,"width":50,"height":50},
+		{"id":"b5d15ce8a90da3c9","type":"file","file":"C语言学习/零星知识点/晶体管.md","x":705,"y":-508,"width":400,"height":400},
+		{"id":"86f8d4640eda6260","type":"text","text":"好难算啊，为什么计算机不能用十进制呢？？\n","x":780,"y":-662,"width":250,"height":50,"color":"4"},
+		{"id":"eae435d74e7801d7","type":"text","text":"1","x":215,"y":380,"width":50,"height":50},
+		{"id":"55fd5c6cb1391150","type":"text","text":"0","x":285,"y":380,"width":50,"height":50},
+		{"id":"046b863393db19a3","type":"text","text":"1","x":235,"y":-80,"width":50,"height":50},
+		{"id":"b96db841ea7fcb77","type":"text","text":"0","x":342,"y":-547,"width":50,"height":50},
+		{"id":"79934f17d770999e","type":"text","text":"3","x":375,"y":-80,"width":50,"height":50},
+		{"id":"d60870d553d479a1","type":"text","text":"7","x":309,"y":-80,"width":50,"height":50},
+		{"id":"8d6430b79041c9f9","type":"text","text":"0","x":412,"y":-547,"width":50,"height":50},
+		{"id":"f15698a3f3c6bcbe","type":"text","text":"0","x":482,"y":-547,"width":50,"height":50},
+		{"id":"c4b6667e56fb28be","type":"text","text":"*好麻烦啊，有没有简单的一点的办法呢？*\n","x":740,"y":-55,"width":250,"height":56,"color":"4"},
+		{"id":"c45aa293f3b42b0e","type":"text","text":"思来想去这一节还是放在第一章，因为它太重要了","x":-280,"y":-939,"width":250,"height":80},
+		{"id":"d858d1d018f4067e","type":"text","text":"进制： [进位计数制](https://baike.baidu.com/item/%E8%BF%9B%E4%BD%8D%E8%AE%A1%E6%95%B0%E5%88%B6/1756805?fromModule=lemma_inlink)，是人为定义的带进位的计数方法--X进制，就表示每一位上的数运算时都是逢X进一位。 [十进制](https://baike.baidu.com/item/%E5%8D%81%E8%BF%9B%E5%88%B6/6521392?fromModule=lemma_inlink)是逢十进一，[十六进制](https://baike.baidu.com/item/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6/4162457?fromModule=lemma_inlink)是逢十六进一，[二进制](https://baike.baidu.com/item/%E4%BA%8C%E8%BF%9B%E5%88%B6/361457?fromModule=lemma_inlink)就是逢二进一，以此类推，x进制就是逢x进位。","x":-280,"y":-719,"width":250,"height":240,"color":"5"},
+		{"id":"53b9fa421a88c59f","type":"text","text":"1","x":195,"y":-547,"width":50,"height":50},
+		{"id":"d6b15df1c45bc130","type":"text","text":"1","x":55,"y":-547,"width":50,"height":50},
+		{"id":"c26de330070c61fe","type":"text","text":"1","x":125,"y":-547,"width":50,"height":50},
+		{"id":"4f244c863ea37aaa","type":"text","text":"如果这里是8位**十进制数据**，显而易见 则该数为 \n0x10^0 +0x10^1 + 0x10^2+ 0x10^3+ 1x10^4+ 1x10^5+ 1x10^6+ 1x10^7\n因为我们的世界默认使用10禁止所以可以讲看到的数据直接写出来，即\n11110000","x":53,"y":-479,"width":595,"height":140},
+		{"id":"71ccde95905dd125","type":"text","text":"1","x":265,"y":-547,"width":50,"height":50},
+		{"id":"7ad54f83c0e4f7a6","type":"text","text":"我们生活的世界大都是十进制，原因很好理解，掰着手指头就能数出来*~~（玛雅文化是二十进制连脚也算上了）~~*\n","x":120,"y":-800,"width":250,"height":138,"color":"4"},
+		{"id":"9a16b27d23b30619","type":"text","text":"1","x":362,"y":380,"width":50,"height":50},
+		{"id":"bce04ce653483c0b","type":"text","text":"如果这里是8位**二进制数据**，显而易见 则该数为 \n0x2^0 +0x2^1 + 0x2^2+ 0x2^3+ 1x2^4+ 1x2^5+ 1x2^6+ 1x2^7\n240\n","x":53,"y":-339,"width":595,"height":120},
+		{"id":"78848cbeaf1b8c9a","type":"text","text":"1","x":432,"y":380,"width":50,"height":50},
+		{"id":"e054e2b8e8e946d1","type":"text","text":"0","x":502,"y":380,"width":50,"height":50},
+		{"id":"6dcacd1ca801be9f","type":"text","text":"1","x":580,"y":380,"width":50,"height":50},
+		{"id":"26dcac3f455f667d","type":"text","text":"用十进制来表示 这个数为 1234\n二进制一般使用长除法来进行进制转换\n方法为除2取余，一直到除数为0，将除数逆序排列，如下图\n![[Pasted image 20250408222617.png|300]]","x":53,"y":0,"width":595,"height":340},
+		{"id":"55d195a962e445b0","type":"text","text":"1","x":75,"y":380,"width":50,"height":50},
+		{"id":"2a05a727ad8cb041","type":"text","text":"0","x":145,"y":380,"width":50,"height":50},
+		{"id":"2881fc9fb038f933","type":"file","file":"C-Learning-master/img/Pasted image 20250408222920.png","x":1020,"y":-55,"width":330,"height":400},
+		{"id":"954e5c1defebe078","type":"text","text":"Windows自带的计算器选择程序员模式就可以直接进行进制转换了\nHEX:十六进制\nDEC:十进制\nOCT: 八进制\nBIN:二进制","x":1350,"y":-158,"width":250,"height":206,"color":"4"}
+	],
+	"edges":[
+		{"id":"342018901110393a","fromNode":"c45aa293f3b42b0e","fromSide":"bottom","toNode":"d858d1d018f4067e","toSide":"top"},
+		{"id":"2849baa4f2be20d4","fromNode":"86f8d4640eda6260","fromSide":"bottom","toNode":"b5d15ce8a90da3c9","toSide":"top","label":"请看这里"},
+		{"id":"37f0b4f8c1a754e4","fromNode":"c4b6667e56fb28be","fromSide":"bottom","toNode":"2881fc9fb038f933","toSide":"left","label":"有的兄弟，有的"},
+		{"id":"e7a1b33638d40233","fromNode":"954e5c1defebe078","fromSide":"bottom","toNode":"2881fc9fb038f933","toSide":"right"}
+	]
+}
